@@ -11,7 +11,7 @@ unsigned long lastUpdate = 0;
 const unsigned long UPDATE_MS = 1000;
 
 //print padded so old chars get overwritten
-void printLine(uint8_t row, const String &text) {
+void printLine(int row, String text) {
   lcd.setCursor(0, row);
   String t = text;
   if (t.length() > 16) t = t.substring(0, 16);
