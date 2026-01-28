@@ -1,2 +1,2 @@
 # arduino-sketches
-A repo for all of my arduino projects. I may add another site for pinout diagrams.
+A repo for all of my arduino projects. Each folder includes a fritzing diagram in PNG and original file format as well as a readme.
